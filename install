@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Installing dependencies"
+brew install sfml
+echo "Building Snek 🐍"
+make clean && make
+echo "Snek 🐍  ready to play!"
+echo "'./snake' to play"

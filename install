@@ -2,6 +2,7 @@
 echo "Installing dependencies"
 brew install sfml
 echo "Building Snek 🐍"
+mkdir obj
 make clean && make
 echo "Snek 🐍  ready to play!"
 echo "'./snake' to play"
